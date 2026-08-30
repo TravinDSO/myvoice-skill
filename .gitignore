@@ -1,0 +1,10 @@
+# Agent-local config — never share
+.claude/
+.codex/
+.agents/
+settings.local.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
