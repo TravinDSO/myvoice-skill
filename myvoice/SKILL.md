@@ -194,3 +194,11 @@ Read this whole file before drafting. Follow every rule.
 - **Week 2:** 10+ rules; drafts noticeably closer to the owner's voice.
 - **Month 1:** 30+ rules; voice dimension scores are calibrated.
 - **Ongoing:** the rule set grows slowly and stabilizes.
+
+---
+
+## Credits
+
+The feedback loop in section 3 is based on prior work by
+[jzOcb](https://github.com/jzOcb) —
+[self-improving-skill](https://github.com/jzOcb/self-improving-skill).

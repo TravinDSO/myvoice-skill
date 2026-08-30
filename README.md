@@ -109,6 +109,19 @@ land close on the first try.
   to start a new session or clear the context.
 - The skill never creates or edits `MYVOICE.md` without you asking.
 
+## Credits
+
+The self-improving feedback loop in this skill — record the first draft,
+record the human's final version, diff them, extract rules — is based on
+prior work by [jzOcb](https://github.com/jzOcb), specifically
+[self-improving-skill](https://github.com/jzOcb/self-improving-skill).
+
+`myvoice` builds on that idea and adds a structured `MYVOICE.md` voice
+file, per-folder and multi-voice support, guided first-time setup, and
+packaging for Claude Code, Claude.ai, and Codex CLI.
+
+Thanks to jzOcb for the original approach.
+
 ## License
 
 MIT — see `LICENSE`.
