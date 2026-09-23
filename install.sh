@@ -1,15 +1,15 @@
 #!/usr/bin/env sh
-# Install the myvoice skill.
+# Install the my-voice skill.
 # Usage: ./install.sh [claude|codex|agents|all]
 set -e
 
-SRC="$(cd "$(dirname "$0")" && pwd)/myvoice"
+SRC="$(cd "$(dirname "$0")" && pwd)/skills/my-voice"
 TARGET="${1:-all}"
 
 [ -f "$SRC/SKILL.md" ] || { echo "ERROR: $SRC/SKILL.md not found"; exit 1; }
 
 install_to() {
-  dest="$1/myvoice"
+  dest="$1/my-voice"
   mkdir -p "$1"
   rm -rf "$dest"
   cp -r "$SRC" "$dest"
@@ -24,4 +24,4 @@ case "$TARGET" in
   *) echo "Usage: ./install.sh [claude|codex|agents|all]"; exit 1 ;;
 esac
 
-echo "Done. Restart your agent, then type /myvoice"
+echo "Done. Restart your agent, then type /my-voice"

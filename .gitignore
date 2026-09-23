@@ -8,3 +8,13 @@ settings.local.json
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Agent context files for local dev: keep out of the repo
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+GEMINI.md
+
+# Personal voice files made while testing the skill here
+MYVOICE.md
+*VOICE.md
